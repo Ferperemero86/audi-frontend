@@ -1,0 +1,393 @@
+body {
+    font-size: 1em;
+}
+
+/* FIRST SECTION */
+
+.home-first-article {
+    width: 100%;
+}
+
+.home-first-section {
+    width: 100%;
+    overflow: hidden;
+}
+
+.home-first-section .introduction-text {
+    padding: 0 5% 0 2%;
+    margin: 30px 0 0 0;
+}
+@media screen and (min-width: 800px) {
+    .home-first-section .introduction-text {
+        width: 40%;
+        float: left;
+        padding: 0 0 0 10%;
+    }
+}
+
+.home-first-section .introduction-text p {
+    color: #828282;
+    line-height: 1.6;
+    font-family: "FiraSansRegular";
+}
+
+.home-first-section .first-div .second-paragraph {
+    margin: 20px 0 0 0;
+}
+
+.home-first-section .statics-container {
+    padding-left: 2%;
+    text-align: center;
+    padding: 30px 0 0 0;
+    width: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+    font-family: "FiraSansBold";
+    color: #1d056f;
+}
+@media screen and (min-width: 800px) {
+    .home-first-section .statics-container {
+        position: relative;
+        width: 50%;
+    }
+}
+
+.circles-container > div {
+    float: left;
+    text-align: center;
+    width: 200px;
+}
+
+/*Circles Design*/
+
+
+.circles-container {
+    width: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.circles-container .statics-title {
+    font-size: 1.3em;
+}
+
+.circle-wrapper, .circle-wrapper div {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.circle-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 15px solid #f2f2f2;
+    border-radius :50%;
+}
+
+.circle-wrapper .circle {
+    clip: rect(0,150px,150px,0px);
+    height: 150px;
+    position: absolute;
+    width: 150px;
+    margin: -15px -30px -15px -15px;
+}
+
+.circle-wrapper .circle .half-circle {
+    border: 15px solid #de1746;
+    clip: rect(0,75px,150px,0);
+    height: 150px;
+    position: absolute;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.percentage {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    text-align: center;
+    width: 100%;
+    top: 45px;
+    font-size: 2em;
+}
+
+.circle-wrapper.points .circle .right-side {
+    border-color: #de1746;
+    display: block;
+    -webkit-transform: rotate(-61.2deg);
+    -ms-transform: rotate(-61.2deg);
+    transform: rotate(-61.2deg);
+}
+
+.circle-wrapper.podiums .circle .right-side {
+    -webkit-transform: rotate(-108deg);
+    -ms-transform: rotate(-108deg);
+    transform: rotate(-108deg);
+    border-color: #de1746;
+    display: block;
+}
+
+/* SECOND SECTION */
+
+.home-second-section {
+    width: 100%;
+    height: 440px;
+    margin: 30px 0 0 0;
+    background-color: #de1746;
+    -webkit-transform: skewY(-4deg);
+    -ms-transform: skewY(-4deg);
+    transform: skewY(-4deg);
+    
+}
+
+.home-second-section .car-image-background {
+    width: 100%;
+    height: 440px;
+    background: url("../images/coche_fondo.png");
+    background-size: contain;
+    position: relative;
+    top: 0;
+    opacity: 0.1;
+    transform: scaleX(1.4);
+}
+
+.home-second-section .images-container {
+    position: absolute;
+    width: 400px;
+    transform: translateX(-50%);
+    left: 50%;
+    margin-left: -200px;
+    top: 50px;
+    font-family: "FiraSansBold";
+    -webkit-transform: skewY(4deg);
+    -ms-transform: skewY(4deg);
+    transform: skewY(4deg);
+}
+@media screen and (min-width: 800px) {
+    .home-second-section .images-container {
+        width: 800px;
+        left: 28%;
+    }
+}
+
+.england-image,
+.finland-image {
+    position: absolute;
+    width: 100px;
+    clip-path: circle(25% at 50% 50%);
+    left: 85px;
+    top: 100px;
+    z-index: 1;
+}
+
+.finland-image {
+    clip-path: circle(25% at 40% 50%);
+    left: 95px;
+}
+
+.bottas-image-container,
+.hamilton-image-container{
+    position: relative;
+    top: 0;
+    width: 150px;
+    height: 200px;
+    display: inline-block;
+}
+
+.bottas-image-container {
+    left: 20px;
+    right: 20px;
+}
+@media screen and (min-width: 800px) {
+    .bottas-image-container {
+        left: 0;
+    }
+}
+
+.hamilton-image-container {
+    left: 70px;
+}
+
+.bottas-image-background,
+.hamilton-image-background {
+    background-color: #fac700;
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 30px;
+}
+
+.bottas-image,
+.hamilton-image {
+   position: absolute;
+   width: 100%;
+   bottom: 0;
+   border-radius: 0 0 50% 50%;
+   overflow: hidden;
+   transform: scale(1.0175);
+   margin-bottom: 30px;
+}
+
+.hamilton-heading,
+.bottas-heading {
+    text-align: center;
+    margin-top: 200px;
+    color: #fadee4;
+    font-family: "FiraSansRegular";
+}
+
+.surname {
+    display: block;
+    font-family: "FiraSansBold";
+    font-size: 1.1em;
+}
+
+.home-second-section .car-image-container {
+    width: 400px;
+    bottom: -200px;
+    position: absolute;
+}
+
+.home-second-section .car-image {
+    max-width: 100%;
+    height: auto;
+}
+@media screen and (min-width: 800px) {
+    .home-second-section .car-image-container {
+        bottom: 0;
+        right: 0;
+    }
+}
+
+/* THIRD SECTION */
+
+.home-third-section {
+    width: 95%;
+    margin: 50px auto;
+    overflow: hidden;
+}
+@media screen and (min-width: 800px) {
+    .home-third-section {
+        position: relative;
+        bottom: 150px;
+    }
+}
+
+.home-news-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.news-column {
+    margin: 20px 0 20px 0;
+    width: 100%;
+    overflow: hidden;
+    border-top: 1px solid #ddd;
+}
+@media screen and (min-width: 800px) {
+    .news-column {
+        width: 30%;
+        margin: 0 1% 0 1%;
+        float: left;
+        border: 0;
+    }
+    .image-container {
+        width: 100%;
+    }
+    .image-container .news-photo {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.primary-column.news-column {
+    border: 0;
+}
+
+.news-column .news-text {
+    display: inline-block;
+    margin: 20px 0 0 10px;
+}
+
+.primary-column.news-column .news-text {
+    width: 320px;
+    float: left;
+    margin-top: 10px;
+    display: block;
+    margin: 0;
+}
+@media screen and (min-width: 800px) {
+    .primary-column.news-column .news-text {
+        width: 100%;
+    }
+    .news-column .news-text {
+        margin: 0;
+    }
+}
+
+.news-column .image-container {
+    text-align: left;
+    float: left;
+    margin-top: 20px;
+    width: 50%;
+    overflow: hidden;
+}
+@media screen and (min-width: 800px) {
+    .news-column .image-container {
+        width: 100%;
+    }
+}
+
+.news-column .image-container .news-photo {
+    max-width: 100%;
+    height: auto;
+}
+
+.primary-column .image-container {
+    float: none;
+    width: 100%;
+}
+
+.news-column .first-heading {
+    color: red;
+    font-family: "RobotoRegular";
+    margin: 10px 0 10px 0;
+}
+
+.news-column .second-heading {
+    color: #1d056f;
+    font-size: 1.3em;
+    font-family: "RobotoBold";
+    margin: 10px 0 10px 0;
+}
+
+.news-column .news-paragraph {
+    font-family: "RobotoRegular";
+    line-height: 1.3;
+    color: #676767;
+    display: none;
+}
+@media screen and (min-width: 800px) {
+    .news-column .news-paragraph {
+        display: block;
+    }
+}
+
+.primary-column.news-column .news-paragraph {
+    display: block;
+    padding: 0 1% 0 0;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "RobotoRegular";
+    src: local('RobotoRegular'),url("../fonts/Roboto/Roboto-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "RobotoBold";
+    src: local('RobotoBold'),url("../fonts/Roboto/Roboto-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "FiraSansBold";
+    src: local('FiraSansBold'),url("../fonts/Fira_Sans/FiraSans-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "FiraSansRegular";
+    src: local('FiraSansRegular'),url("../fonts/Fira_Sans/FiraSans-Regular.ttf") format('truetype');
+}

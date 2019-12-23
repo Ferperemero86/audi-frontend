@@ -1,0 +1,117 @@
+.header {
+    width: 100%;
+    height: 120px;
+    padding: 15px 0 20px 2%;
+    border-bottom: 1px solid #e0e0e0;
+    overflow: hidden;
+}
+@media screen and (min-width: 800px) {
+    .header {
+        padding-left: 10%;
+    }
+}
+
+.header-first-div {
+    float: left;
+    width: 60%;
+}
+@media screen and (min-width: 800px) {
+    .header-first-div {
+        float: none;
+    }
+}
+
+.header-first-div .logo {
+    max-width: 100px;
+    height: auto;
+}
+
+.header-first-div .logo-background-container {
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.header-first-div .logo-background {
+    max-width: 280%;
+    position: absolute;
+    left: 25%;
+    top: -30px;
+    opacity: 0.1;
+}
+@media screen and (min-width: 800px) {
+    .header-first-div .logo-background-container {
+        width: 70%;
+        left: 40%;
+    }
+    .header-first-div .logo-background {
+        max-width: 180%;
+        left: 25%;
+    }
+}
+
+.header-first-div .header-heading {
+    margin: 10px 0 0 0;
+    font-family: "FiraSansBold";
+    color: #e80b3f;
+}
+
+.header-heading {
+    font-size: 35px;
+}
+
+.header-second-div {
+    float: left;
+    width: 30%;
+    padding: 0 10% 0 0;
+    height: 90px;
+    overflow: hidden;
+}
+@media screen and (min-width: 800px) {
+    .header-second-div {
+        display: none;
+    }
+}
+
+.header-second-div .fas.fa-bars {
+    font-size: 40px;
+    float: right;
+    margin: 5px 0 0 0;
+}
+
+.desktop-header-second-div {
+    width: 100%;
+    margin: 15px 0 0 0;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 105px;
+}
+@media screen and (min-width: 800px) {
+    .desktop-header-second-div {
+        display: block;
+    }  
+}
+
+.desktop-header-second-div > ul {
+    float: left;
+    width: 400px;
+}
+
+.desktop-header-second-div ul > li {
+    float: left;
+    width: 33%;
+    text-align: justify;
+    font-family: "FiraSansBold";
+    color: #1d056f;
+}
+
+.desktop-header-second-div ul > li a {
+    text-decoration: none;
+}
+
+.selected {
+    text-decoration: none;
+    border-bottom: 4px solid;
+    padding-bottom: 15px;
+}
